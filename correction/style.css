@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:  #f7f3f3;
+    height: 100vh;
+    width: 100%;
+}
+#menu{
+    color: rgb(145, 145, 145);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px  #b8b8b8 solid;
+}
+#logohome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logohome>img{
+    height: 35px;
+}
+#logosearch{
+    margin-left: 21%;
+    width: 300px;
+    display: flex;
+}
+#me{
+    width: 10%;
+    padding-bottom: 3px;
+}
+#photome{
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+}
+#searchzone{
+    height: 35px;
+    background: url(search-solid.svg);
+    background-repeat: no-repeat;
+    background-color: #f0ecec;
+    background-position: 2% 50%;
+    background-size: 25px;
+    padding-left: 30px;
+    border: 0;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-top: 7px;
+    outline: none;
+}
+.boutonnav>i{
+    font-size: 15px;
+}
+.boutonnav{
+    height: 35px;
+    font-size: 13px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav{
+    display: flex;
+    width: 30%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content: flex-end;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#left{
+    border-radius: 10px;
+    width: 20%; 
+    height: 100%;
+    padding-left: 10px;
+}
+#profil{
+    flex-direction: column;
+    align-items: center;
+}
+.trame{
+    margin-top: 10px;
+    display: flex;
+    border-radius: 8px;
+    background-color: white;
+    border: rgb(180, 180, 180) 1px solid;
+}
+.bulle{
+    margin-top: 10px;
+    display: flex;
+    border-radius: 8px;
+    background-color: white;
+    border: rgb(224, 224, 224) 1px solid;
+}
+#couverture{
+    background-image: url(https://res.cloudinary.com/teammates/image/upload/v1608904007/nature_picture_shgs06.jpg);
+    background-size: 200px;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width:100%;
+    height: 55px;
+}
+#photoprofil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: -10px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 50%;
+    font-size: 130%;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+#user{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+#mail{
+    color:rgb(145, 145, 145);
+    font-weight: 600;
+    font-size: 80%;
+    margin-bottom: 10px;
+}
+#number{
+    color:rgb(3, 32, 197);
+    font-weight: bolder;
+}
+#whoviewedyou{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#view{
+    display: flex;
+    justify-content: space-around;
+}
+#viewonpost{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-items: center;
+}
+#recent{
+    flex-direction: column;
+}
+#recent>p{
+    margin: 10px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+#list>p{
+    margin: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+#milieu{
+    margin-left: 1%;
+    width: 60%;
+}
+#share{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#boxshare{
+    margin: 10px;
+    padding-left: 50px;
+    height: 45px;
+    width: 97%;
+    border-radius: 20px;
+    border: solid 1px rgb(145, 145, 145);
+    background-image: url(pen-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: 2% 50%;
+}
+.boutonshare{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(145, 145, 145);
+}
+#iconephoto{
+    color: rgb(60, 134, 219);
+    margin: 10px;
+}
+#iconevideo{
+    color: gold;
+    margin: 10px;
+}
+#iconeevent{
+    color: rgb(145, 145, 145);
+    margin: 10px;
+}
+#iconearticle{
+    color: rgb(117, 238, 113);
+    margin: 10px;
+}
+#zoneboutonpartage{
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+.post{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.identiteposter{
+    margin: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.photopost{
+    font-size: 130%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(81, 152, 245);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+.texteposter{
+    margin-left: 10px;
+}
+.nomposter{
+    font-weight: bolder;
+    font-size: 120%;
+}
+.descriptionposter{
+    font-size: 80%;
+}
+.messageposte{
+    width: 100%;
+    margin-left: 5px;
+}
+.zoneboutonsreactionpost{
+    color:rgb(145, 145, 145);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+}
+.reactionbutton{
+    font-weight: 600;
+    font-size: 14px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reactionbutton>p{
+    margin-left: 3px;
+}
+#right{
+    margin-left: 0.5%;
+    width: 18%;
+}
+#news{
+    padding: 10px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.titre{
+    display: flex;
+    justify-content: space-between;
+}
+.pointbleu{
+    background-color: rgb(57, 107, 245);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.newsentry{
+    display: flex;
+    justify-content: left;
+    font-size: 80%;
+}
+.titrenews{
+    font-weight: bold;
+}
+
